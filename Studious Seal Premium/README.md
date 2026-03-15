@@ -1,4 +1,4 @@
-# 📚 Deadline Nagger Bot
+# 📚 Studious Seal Premium
 
 An AI-powered study enforcer for Discord and Telegram. It reads your syllabus PDFs, tracks your deadlines, and aggressively quizzes you on your class notes so you don't fail. Powered by **Gemini 2.5 Flash** and a local SQLite database.
 
