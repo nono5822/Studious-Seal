@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* SealSenseiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* SealSenseiApp.swift */; };
+		A1000002 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* MainTabView.swift */; };
+		A1000003 /* DashboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* DashboardData.swift */; };
+		A1000004 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* APIService.swift */; };
+		A1000005 /* UrgencyMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* UrgencyMeter.swift */; };
+		A1000006 /* FocusDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* FocusDashboardView.swift */; };
+		A1000007 /* InterventionFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007 /* InterventionFeedView.swift */; };
+		A1000008 /* StudyVaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008 /* StudyVaultView.swift */; };
+		A1000009 /* KnowledgeGapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000009 /* KnowledgeGapDetailView.swift */; };
+		A1000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000010 /* Assets.xcassets */; };
+		A1000011 /* GradeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000011 /* GradeModels.swift */; };
+		A1000012 /* GradeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000012 /* GradeStore.swift */; };
+		A1000013 /* GradeCalculatorTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000013 /* GradeCalculatorTabView.swift */; };
+		A1000014 /* FolderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000014 /* FolderDetailView.swift */; };
+		A1000015 /* ClassGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015 /* ClassGradeView.swift */; };
+		A1000016 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000016 /* Theme.swift */; };
+		A1000017 /* UserPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000017 /* UserPickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2000000 /* Studious Seal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Studious Seal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000001 /* SealSenseiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealSenseiApp.swift; sourceTree = "<group>"; };
+		A2000002 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A2000003 /* DashboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardData.swift; sourceTree = "<group>"; };
+		A2000004 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A2000005 /* UrgencyMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrgencyMeter.swift; sourceTree = "<group>"; };
+		A2000006 /* FocusDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusDashboardView.swift; sourceTree = "<group>"; };
+		A2000007 /* InterventionFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterventionFeedView.swift; sourceTree = "<group>"; };
+		A2000008 /* StudyVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyVaultView.swift; sourceTree = "<group>"; };
+		A2000009 /* KnowledgeGapDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeGapDetailView.swift; sourceTree = "<group>"; };
+		A2000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000011 /* GradeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeModels.swift; sourceTree = "<group>"; };
+		A2000012 /* GradeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeStore.swift; sourceTree = "<group>"; };
+		A2000013 /* GradeCalculatorTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeCalculatorTabView.swift; sourceTree = "<group>"; };
+		A2000014 /* FolderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderDetailView.swift; sourceTree = "<group>"; };
+		A2000015 /* ClassGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassGradeView.swift; sourceTree = "<group>"; };
+		A2000016 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A2000017 /* UserPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4000000 = {
+			isa = PBXGroup;
+			children = (
+				A4000001 /* SealSensei */,
+				A4000010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4000001 /* SealSensei */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001 /* SealSenseiApp.swift */,
+				A4000002 /* Views */,
+				A4000005 /* Models */,
+				A4000006 /* Services */,
+				A4000012 /* Utilities */,
+				A2000010 /* Assets.xcassets */,
+			);
+			path = SealSensei;
+			sourceTree = "<group>";
+		};
+		A4000002 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2000002 /* MainTabView.swift */,
+				A4000003 /* Components */,
+				A4000007 /* FocusDashboard */,
+				A4000008 /* InterventionFeed */,
+				A4000009 /* StudyVault */,
+				A4000011 /* GradeCalculator */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4000003 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A2000005 /* UrgencyMeter.swift */,
+				A2000017 /* UserPickerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A4000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2000003 /* DashboardData.swift */,
+				A2000011 /* GradeModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2000004 /* APIService.swift */,
+				A2000012 /* GradeStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A4000007 /* FocusDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A2000006 /* FocusDashboardView.swift */,
+			);
+			path = FocusDashboard;
+			sourceTree = "<group>";
+		};
+		A4000008 /* InterventionFeed */ = {
+			isa = PBXGroup;
+			children = (
+				A2000007 /* InterventionFeedView.swift */,
+			);
+			path = InterventionFeed;
+			sourceTree = "<group>";
+		};
+		A4000009 /* StudyVault */ = {
+			isa = PBXGroup;
+			children = (
+				A2000008 /* StudyVaultView.swift */,
+				A2000009 /* KnowledgeGapDetailView.swift */,
+			);
+			path = StudyVault;
+			sourceTree = "<group>";
+		};
+		A4000010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000 /* Studious Seal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4000011 /* GradeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				A2000013 /* GradeCalculatorTabView.swift */,
+				A2000014 /* FolderDetailView.swift */,
+				A2000015 /* ClassGradeView.swift */,
+			);
+			path = GradeCalculator;
+			sourceTree = "<group>";
+		};
+		A4000012 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A2000016 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5000001 /* Studious Seal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6000002 /* Build configuration list for PBXNativeTarget "Studious Seal" */;
+			buildPhases = (
+				A5000002 /* Sources */,
+				A3000001 /* Frameworks */,
+				A5000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Studious Seal";
+			productName = "Studious Seal";
+			productReference = A2000000 /* Studious Seal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5000010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A5000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A6000001 /* Build configuration list for PBXProject "SealSensei" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4000000;
+			productRefGroup = A4000010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5000001 /* Studious Seal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* SealSenseiApp.swift in Sources */,
+				A1000002 /* MainTabView.swift in Sources */,
+				A1000003 /* DashboardData.swift in Sources */,
+				A1000004 /* APIService.swift in Sources */,
+				A1000005 /* UrgencyMeter.swift in Sources */,
+				A1000006 /* FocusDashboardView.swift in Sources */,
+				A1000007 /* InterventionFeedView.swift in Sources */,
+				A1000008 /* StudyVaultView.swift in Sources */,
+				A1000009 /* KnowledgeGapDetailView.swift in Sources */,
+				A1000011 /* GradeModels.swift in Sources */,
+				A1000012 /* GradeStore.swift in Sources */,
+				A1000013 /* GradeCalculatorTabView.swift in Sources */,
+				A1000014 /* FolderDetailView.swift in Sources */,
+				A1000015 /* ClassGradeView.swift in Sources */,
+				A1000016 /* Theme.swift in Sources */,
+				A1000017 /* UserPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = PAQ2RR3Z2J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sealsensei.app;
+				PRODUCT_NAME = "Studious Seal";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = PAQ2RR3Z2J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sealsensei.app;
+				PRODUCT_NAME = "Studious Seal";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6000001 /* Build configuration list for PBXProject "SealSensei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6000003 /* Debug */,
+				A6000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6000002 /* Build configuration list for PBXNativeTarget "Studious Seal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6000005 /* Debug */,
+				A6000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5000010 /* Project object */;
+}
