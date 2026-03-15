@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import type { ApiState } from '../services/api'
-import { getErrorMessage, fetchUsers, fetchDashboard, setBaseURL, setUsername, loadMockDashboard } from '../services/api'
+import { fetchUsers, fetchDashboard, setBaseURL, setUsername, loadMockDashboard } from '../services/api'
 
 interface UserPickerProps {
   api: ApiState

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { ApiState } from '../services/api'
-import { fetchDashboard, loadMockDashboard } from '../services/api'
+import { loadMockDashboard } from '../services/api'
 import type { InterventionLog } from '../types/dashboard'
 import { parseTimestamp, formatDate } from '../types/dashboard'
 import { UserPicker } from '../components/UserPicker'

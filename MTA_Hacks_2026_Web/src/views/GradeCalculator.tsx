@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import type { ApiState } from '../services/api'
 import { loadMockDashboard } from '../services/api'
-import type { GradeStoreState, GradeFolder, GradeClass, GradeComponent } from '../services/gradeStore'
+import type { GradeFolder, GradeClass, GradeComponent } from '../types/grades'
+import type { GradeStoreState } from '../services/gradeStore'
 import {
   addFolder,
   deleteFolder,
