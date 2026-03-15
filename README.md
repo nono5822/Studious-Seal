@@ -11,7 +11,7 @@
 ### Step 1 — Join the demo server
 > https://discord.gg/STMK9Qfh 
 
-Link for the IOS App demo : https://studyseal.netlify.app/ 
+Link for the Web app demo : https://studyseal.netlify.app/ 
 
 ### Step 2 — DM the bot
 Once you're in the server, find **Studious Seal** in the member list and send it a DM. Any message works — it will introduce itself.
