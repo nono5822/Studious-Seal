@@ -11,6 +11,8 @@
 ### Step 1 — Join the demo server
 > https://discord.gg/STMK9Qfh 
 
+Link for the IOS App demo : https://studyseal.netlify.app/ 
+
 ### Step 2 — DM the bot
 Once you're in the server, find **Studious Seal** in the member list and send it a DM. Any message works — it will introduce itself.
 
@@ -22,6 +24,8 @@ To see the full flow, add a deadline:
 INFO4004 16 mars 25%
 ```
 Then type `!list` to confirm it was added.
+
+If you have a critical exam coming up. The Bot will look for your productivity and DM you.
 
 ---
 
