@@ -45,7 +45,7 @@ Or DM the bot `!invite` once you've joined the demo server.
 
 ### Prerequisites
 - Python 3.10+
-
+- Change
 ### Install
 ```bash
 pip install -r requirements.txt
