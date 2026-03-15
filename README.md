@@ -15,7 +15,7 @@
 Once you're in the server, find **Studious Seal** in the member list and send it a DM. Any message works — it will introduce itself.
 
 ### Step 3 — Watch it work
-Type `!demo` in the DM to instantly see a nag message + gif without needing to add real deadlines.
+DM to instantly see what the Bots does. 
 
 To see the full flow, add a deadline:
 ```
